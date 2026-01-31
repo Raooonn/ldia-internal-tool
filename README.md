@@ -16,3 +16,13 @@ Regional Sales Director – Luxury Watches (Europe)
 1. What is total and average monthly sales?
 2. Which months perform best and worst?
 3. How is performance evolving month over month?
+
+## Shipments
+
+### Week 1
+- Dataset: `data/sales.csv`
+- Script: `hello_decision.py`
+- Output evidence: `assets/week1_terminal.png`
+- Executive note: `week1_exec_note.md`
+
+Delivered a first end-to-end data-to-insight pipeline.
