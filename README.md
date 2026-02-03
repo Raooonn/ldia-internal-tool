@@ -26,3 +26,10 @@ Regional Sales Director – Luxury Watches (Europe)
 - Executive note: `week1_exec_note.md`
 
 Delivered a first end-to-end data-to-insight pipeline.
+
+### Week 2
+- Script: `analysis_pandas.py`
+- Output evidence: `assets/week2_terminal.png`
+- Executive note: `week2_exec_note.md`
+
+Refactored the analysis pipeline using pandas for scalability and robustness.
