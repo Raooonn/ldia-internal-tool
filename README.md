@@ -33,3 +33,10 @@ Delivered a first end-to-end data-to-insight pipeline.
 - Executive note: `week2_exec_note.md`
 
 Refactored the analysis pipeline using pandas for scalability and robustness.
+
+### Week 3
+- Baseline forecasting (naïve + rolling mean)
+- Output evidence: `assets/week3_terminal.png`
+- Executive note: `week3_exec_note.md`
+
+Introduced a first forward-looking baseline forecast to support planning decisions.
