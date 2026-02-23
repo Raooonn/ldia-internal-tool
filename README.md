@@ -40,3 +40,15 @@ Refactored the analysis pipeline using pandas for scalability and robustness.
 - Executive note: `week3_exec_note.md`
 
 Introduced a first forward-looking baseline forecast to support planning decisions.
+
+## Week 4 – Configurable Decision Engine
+
+Implemented a configurable decision engine with confidence guardrails.
+
+Key components:
+- config.py (threshold control)
+- explainable confidence scoring
+- operational action mapping
+
+Screenshot:
+![Week 4 Decision Engine](assets/week4_decision_engine.png)
