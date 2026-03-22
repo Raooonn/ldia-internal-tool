@@ -2,12 +2,15 @@ import pandas as pd
 
 
 def compute_outputs(
-    csv_path: str,
-    deviation_threshold: float,
-    rolling_window: int,
-    high_conf_threshold: int,
-    medium_conf_threshold: int,
+    csv_path,
+    deviation_threshold,
+    rolling_window,
+    high_conf_threshold,
+    medium_conf_threshold,
+    marketing_uplift=0,
+    supply_shock=0,
 ):
+    
     df_raw = pd.read_csv(csv_path)
 
     # Week 2 KPIs (raw)
@@ -34,9 +37,15 @@ def compute_outputs(
     last_month = df.index[-1]
     next_month = last_month + pd.offsets.MonthBegin(1)
 
+    # Scenario simulation
+    marketing_factor = 1 + (marketing_uplift / 100)
+    supply_factor = 1 - (supply_shock / 100)
+
+    adjusted_forecast = rolling_forecast * marketing_factor * supply_factor
+
     # Benchmarks
     historical_avg = df["sales_eur"].mean()
-    deviation_pct = ((rolling_forecast - historical_avg) / historical_avg) * 100
+    deviation_pct = ((adjusted_forecast - historical_avg) / historical_avg) * 100
 
     # Confidence heuristics
     n_months = len(df)
@@ -116,5 +125,11 @@ def compute_outputs(
             "agreement_gap_pct": float(agreement_gap_pct),
         },
         "decision": {"signal": signal, "action": action},
-        "df_raw": df_raw,
+            "df_raw": df_raw,
+        
+        "simulation": {
+            "marketing_uplift": marketing_uplift,
+            "supply_shock": supply_shock,
+            "adjusted_forecast": float(adjusted_forecast),
+         },
     }
