@@ -1,0 +1,8 @@
+Inventory Allocation Notes
+
+Inventory should be allocated according to sell-through velocity, strategic boutique priority, and launch calendar.
+The first allocation wave should favor stores with proven conversion on high-margin references.
+Secondary reallocation between regions is allowed when stock cover exceeds eight weeks in a low-demand location and falls below three weeks in a priority market.
+
+For limited editions, allocation must remain centrally controlled.
+For iconic permanent collection items, local commercial teams may propose reallocations supported by weekly sales evidence.

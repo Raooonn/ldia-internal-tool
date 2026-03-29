@@ -1,0 +1,33 @@
+doc_name,chunk_id,chunk_text
+inventory_notes.txt,1,"Inventory Allocation Notes
+
+Inventory should be allocated according to sell-through velocity, strategic boutique priority, and launch calendar.
+The first allocation wave should favor stores with proven conversion on high-margin references.
+Secondary reallocation between regions is allowed when stock cover exceeds eight weeks in a low-demand location and falls below three weeks in a priority market.
+
+For limited editions, allocation must remain centrally controlled.
+For iconic permanent collectio"
+inventory_notes.txt,2,"n items, local commercial teams may propose reallocations supported by weekly sales evidence."
+monthly_ops_report.txt,1,"Monthly Operations Report – June
+
+The main operational risks identified this month were:
+- delayed inbound shipments for high-demand references,
+- stock imbalance between Western Europe and the Swiss market,
+- temporary shortage of leather packaging components,
+- higher return handling time in two flagship stores.
+
+No critical IT outage was reported.
+The operations team recommends tighter weekly stock reallocation reviews and earlier supplier confirmation for packaging materials."
+pricing_policy.txt,1,"Pricing Policy – Europe Luxury Retail
+
+Standard discounting is not permitted for core collection products.
+Any exception request must be approved by the regional commercial director and justified by one of the following conditions:
+1. end-of-season stock clearance,
+2. damaged packaging with intact product quality,
+3. VIP retention case with documented revenue history,
+4. local event-driven traffic activation approved in advance.
+
+Discount exceptions above 10% require finance review.
+Repeated dis"
+pricing_policy.txt,2,"counting in the same boutique within a 60-day period must be escalated.
+The objective is to protect brand equity while allowing controlled flexibility in exceptional cases."

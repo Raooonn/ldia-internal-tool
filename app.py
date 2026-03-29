@@ -1,5 +1,5 @@
 import streamlit as st
-from engine import compute_outputs
+from src.engine import compute_outputs
 
 st.set_page_config(page_title="LDIA – Decision Intelligence", layout="wide")
 
